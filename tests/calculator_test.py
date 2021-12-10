@@ -1,43 +1,39 @@
-"""Calculator Testing"""
-from calculator.calculator import Calculator
+"""Testing the Calculator"""
+import pytest
+from calc.calculator import Calculator
+from calc.history.calculations import Calculations
 
 
-def test_calculator_result():
-    """Calculator testing result is 0"""
-    calc = Calculator()
-    assert calc.result == 0
+@pytest.fixture
+def clear_history_fixture():
+    """define a function that will run each time you pass it to a test, it is called a fixture"""
+    # pylint: disable=redefined-outer-name
+    Calculations.clear_history()
+# You have to add the fixture function as a parameter to the test that you want to use it with
 
-def test_calculator_add():
-    """Addition function testing of the calculator"""
-    calc = Calculator()
-    result = calc.add_numbers(6,3)
-    assert result == 9
 
-def test_calculator_get_result():
-    """Get result method testing of the calculator"""
-    calc = Calculator()
-    assert calc.get_result() == 0
+def test_calculator_add_static(clear_history_fixture):
+    """testing that our calculator has a static method for addition"""
+    # pylint: disable=unused-argument,redefined-outer-name
+    # using Tuple instead of args because we can pack as much data as we need into the tuple
+    my_tuple = (1.0, 2.0, 5.0)
+    Calculator.addition(my_tuple)
+    assert Calculator.get_last_result_value() == 8.0
 
-def test_calculator_subtract():
-    """Subtract method testing of the calculator"""
-    calc = Calculator()
-    result= calc.subtract_numbers(3,8)
-    assert result == -5
 
-def test_calculator_multiply():
-    """Multiplication method testing of the calculator"""
-    calc = Calculator()
-    result = calc.multiply_numbers(6,3)
-    assert result == 18
+def test_calculator_subtract_static(clear_history_fixture):
+    """Testing the subtract method of the calc"""
+    # pylint: disable=unused-argument,redefined-outer-name
+    # using Tuple instead of args because we can pack as much data as we need into the tuple
+    my_tuple = (1.0, 2.0, 3.0)
+    Calculator.subtraction(my_tuple)
+    assert Calculator.get_last_result_value() == -6.0
 
-def test_calculator_divide_by_zero():
-    """Division method testing of the calculator by two numbers with denominator zero"""
-    calc = Calculator()
-    result = calc.divide_numbers(2,0)
-    assert result is None
 
-def test_calculator_divide():
-    """Division method testing of the calculator of two numbers"""
-    calc = Calculator()
-    result = calc.divide_numbers(9,3)
-    assert result == 3
+def test_calculator_multiply_static(clear_history_fixture):
+    """Testing the subtract method of the calc"""
+    # pylint: disable=unused-argument,redefined-outer-name
+    # using Tuple instead of args because we can pack as much data as we need into the tuple
+    my_tuple = (1.0, 2.0, 3.0)
+    Calculator.multiplication(my_tuple)
+    assert Calculator.get_last_result_value() == 6.0

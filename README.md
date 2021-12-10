@@ -6,13 +6,13 @@
 ![img.png](img.png)
 
 ## Terminal Coverage:
-![TerminalCoverage.PNG] (TerminalCoverage.PNG)
+![terminalcoverage.png](terminalcoverage.png)
 
 ## Commit History:
-![CommitHistory.PNG] (CommitHistory.PNG)
+![commithistory.png](commithistory.png)
 
 ## Results Log:
-![ResultsLog.PNG] (ResultsLog.PNG)
+![resultslog.png](resultslog.png)
 
 ## Configurations & Descriptions of Files Used in the Calculator Part 2 CSV File Handling Project:
 ### First, run command to install requirements: pip install -r requirements.txt

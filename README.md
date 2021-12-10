@@ -3,8 +3,6 @@
 
 ## CSV and File Handling - Design your own code
 
-![img.png](img.png)
-
 ## Terminal Coverage:
 ![terminalcoverage.png](terminalcoverage.png)
 

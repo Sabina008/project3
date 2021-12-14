@@ -1,7 +1,9 @@
-# Project 3
-[![Build Status](https://app.travis-ci.com/Sabina008/calc2.svg?branch=main)](https://app.travis-ci.com/Sabina008/calc2)
+# flask-tables
+Beautiful interactive tables in your Flask templates
 
-Refactor improved calculator to use the calculation class and enable it to process as many parameters as needed. 
-Calculator includes multiplication, addition, subtraction, and division.
+![Table Example](table.png)
 
-![img.png](img.png)
+## Resources
+
+- Video demonstration: [Go to YouTube video](https://www.youtube.com/watch?v=IsuhCAptNbg).
+- Learn how to use this code: [Go to blog post](https://blog.miguelgrinberg.com/post/beautiful-interactive-tables-for-your-flask-templates).

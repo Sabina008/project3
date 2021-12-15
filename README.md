@@ -1,19 +1,29 @@
-# Project 3
-[![Build Status](https://app.travis-ci.com/Sabina008/calc2.svg?branch=main)](https://app.travis-ci.com/Sabina008/calc2)
+# Flash Messages and Validation
 
-## CSV and File Handling - Design your own code
+https://flask.palletsprojects.com/en/2.0.x/patterns/flashing/
+## Show the final results in a photo added to your Readme in your GitHub repo.
 
-## Terminal Coverage:
-![terminalcoverage.png](terminalcoverage.png)
+### Overview Page:
+![Overview Page](https://user-images.githubusercontent.com/90408079/146111487-c455de8c-c6e1-42ea-a7ba-9bdbf44ada56.png)
 
-## Commit History:
-![commithistory.png](commithistory.png)
+### Login Page:
+![Login Page](https://user-images.githubusercontent.com/90408079/146111571-93df9501-ee09-4c5e-b819-f65bee7fb74b.png)
 
-## Results Log:
-![resultslog.png](resultslog.png)
+### Successful Overview Page:
+![Successful Overview Page](https://user-images.githubusercontent.com/90408079/146111604-eb109936-2540-4ba8-b759-6c031ba2abb2.png)
 
-## Configurations & Descriptions of Files Used in the Calculator Part 2 CSV File Handling Project:
-### First, run command to install requirements: pip install -r requirements.txt
-### In order to run tests, Lint, and Coverage report use the following command:
-### pytest --pylint --cov
-### .pylintrc is the config for pylint .coveragerc is the config for coverage setup.py is a config file for pytest
+### Invalid Login Page:
+![Invalid Login](https://user-images.githubusercontent.com/90408079/146111652-f99daefb-45f6-47b0-88ed-6ecc50ce5ccd.png)
+
+## Steps Taken:
+### Create a new "Flask" project in Pycharm
+### Follow steps in the tutorial: 
+### https://flask.palletsprojects.com/en/2.0.x/patterns/flashing/
+###     Add code to app.py file
+###     Create 3 HTMLS files and add code:
+###         index.html
+###         layout.html
+###         login.html
+### When done right click on app.py file and click run
+### An IP address local host will display
+### Click on the IP address to test successful and invalid messages.

@@ -9,7 +9,5 @@ script:
 
 branches:
   only:
-    - branch1
-    
-after_success:
-    - coveralls
+    - main
+    - development

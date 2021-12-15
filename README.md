@@ -1,7 +1,10 @@
-# Project 3
-[![Build Status](https://app.travis-ci.com/Sabina008/calc2.svg?branch=main)](https://app.travis-ci.com/Sabina008/calc2)
+# Calculator Project Setup
+[![Build Status](https://app.travis-ci.com/kaw393939/calc2.svg?branch=main)](https://app.travis-ci.com/kaw393939/calc2)
 
-Refactor improved calculator to use the calculation class and enable it to process as many parameters as needed. 
-Calculator includes multiplication, addition, subtraction, and division.
+To run tests, Lint, and Coverage report use this command:
 
-![img.png](img.png)
+pytest  --pylint --cov
+
+.pylintrc is the config for pylint
+.coveragerc is the config for coverage
+setup.py is a config file for pytest

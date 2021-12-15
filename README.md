@@ -1,7 +1,7 @@
 # Flash Messages and Validation
 
 https://flask.palletsprojects.com/en/2.0.x/patterns/flashing/
-Show the final results in a photo added to your Readme in your GitHub repo.
+## Show the final results in a photo added to your Readme in your GitHub repo.
 
 Overview Page:
 ![Overview Page](https://user-images.githubusercontent.com/90408079/146111487-c455de8c-c6e1-42ea-a7ba-9bdbf44ada56.png)

@@ -1,7 +1,7 @@
 # Project 3 
 [![Build Status](https://app.travis-ci.com/kaw393939/calc2.svg?branch=main)](https://app.travis-ci.com/kaw393939/calc2)
 
-## Calulator Form:
+## Calculator Form:
 ### ![calculatorform](https://user-images.githubusercontent.com/90408079/146491726-d74c92ed-bd7a-4f69-85a3-f32faf86d9d5.png)
 
 ## Calculation Results:
